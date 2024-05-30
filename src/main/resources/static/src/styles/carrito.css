@@ -1,0 +1,135 @@
+.barra-verde{ /*Estilos para la barra verde abajo del nav-bar*/
+    font-size: 24px;
+    color: black;
+}
+
+
+.img{
+width: 30%;
+all: 180px;
+
+}
+
+
+.productos {
+    flex: 0 0 10px;
+    display:flex;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    background-color:rgb(240, 194, 126);
+
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+.carrito  {
+    flex: 0 0 25%;
+    border: 1px solid #ccc;
+    padding: 20px;
+     
+}
+
+.carrito h2  {
+    margin-top: 0;
+    text-align: center;
+}
+
+.carrito ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.carrito ul li {
+    margin-bottom: 10px;
+}
+/* botones mejorados */
+.btn-car {
+
+   border-radius: 10px;
+   width: 180px;
+   background: rgb(186,204,51) !important;
+   background: linear-gradient(180deg, rgba(186,204,51,1) 37%, rgba(172,190,36,1) 91%) !important;
+   box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.24) !important;
+}
+.btn-car:hover{
+    background: rgb(159,176,33) !important;
+    background: linear-gradient(180deg, rgba(159,176,33,1) 37%, rgba(143,158,25,1) 91%) !important;
+}
+
+.btn-car:active{
+    background: rgb(122,135,26) !important;
+    background: linear-gradient(180deg, rgba(122,135,26,1) 37%, rgba(76,84,11,1) 91%)  !important;
+}
+
+p{
+  text-align: center;  
+}
+
+ /* botones mejorados */
+.btn-carro {
+    border-radius: 10px;
+    width: 180px;
+    background: rgb(186, 204, 51) !important;
+    background: linear-gradient(180deg, rgba(186, 204, 51, 1) 37%, rgba(172, 190, 36, 1) 91%) !important;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.24) !important;
+    margin: 0 auto; 
+    display: block; 
+}
+
+
+
+.producto-carrito {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    background-color:rgb(240, 194, 126); 
+    padding: 10px; /
+  }
+  
+  .producto-carrito .producto-container {
+    
+    align-items: center; 
+    background-color:bisque;
+    padding: 5px; 
+    border-radius: 8px;
+    max-width: 250px; 
+  }
+  
+  .producto-carrito .producto-container > * {
+    margin-right: 10px; 
+    
+  }
+  
+.producto-carrito .contorno-cafe img {
+    width: 20px; 
+    height: auto; 
+  }
+  
+  
+
+  
+  
+  .producto-carrito img {
+    width: 180px; 
+    height: 140px; 
+  }
+  
+.button{
+    
+    width: 180px;
+    background: rgb(186, 204, 51) !important;
+    background: linear-gradient(180deg, rgba(186, 204, 51, 1) 37%, rgba(172, 190, 36, 1) 91%) !important;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.24) !important;
+    margin: 0 auto; 
+    display: block; 
+
+}
+
